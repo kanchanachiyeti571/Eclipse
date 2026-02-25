@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-17T19:35:11 IST" name="Default suite" finished-at="2026-02-17T19:35:45 IST" duration-ms="34200">
+    <groups>
+    </groups>
+    <test started-at="2026-02-17T19:35:11 IST" name="Default test" finished-at="2026-02-17T19:35:45 IST" duration-ms="34200">
+      <class name="TestNg.LoginTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:TestNg.LoginTest@54d9d12d]" started-at="2026-02-17T19:35:11 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-17T19:35:22 IST" duration-ms="11549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:TestNg.LoginTest@54d9d12d]" started-at="2026-02-17T19:35:23 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-17T19:35:32 IST" duration-ms="9248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:TestNg.LoginTest@54d9d12d]" started-at="2026-02-17T19:35:32 IST" name="loginTest" data-provider="loginData" finished-at="2026-02-17T19:35:45 IST" duration-ms="13348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- TestNg.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
